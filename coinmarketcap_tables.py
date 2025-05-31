@@ -1,8 +1,8 @@
-
 from typing import List, Optional, Dict, Any
 from mindsdb.integrations.libs.api_handler_exceptions import MissingConnectionParams
 from mindsdb.integrations.utilities.sql_utils import extract_comparison_conditions
 from mindsdb_sql.parser.ast.select.constant import Constant
+import pandas as pd
 
 
 class CoinMarketCapTable:
