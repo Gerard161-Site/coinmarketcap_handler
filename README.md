@@ -1,5 +1,15 @@
 # CoinMarketCap Handler for MindsDB
 
+## 🚀 Recent Updates (2025-06-08)
+
+**Critical fixes applied for MindsDB compatibility:**
+- ✅ Fixed `HANDLER_TYPE.DATA` import issue
+- ✅ Cleaned up excessive logging in initialization
+- ✅ Verified MindsDB handler structure compliance
+- ✅ Ready for deployment and testing
+
+---
+
 This handler integrates MindsDB with the CoinMarketCap API, enabling you to access real-time cryptocurrency market data, prices, and metrics directly from your MindsDB instance.
 
 ## Overview
