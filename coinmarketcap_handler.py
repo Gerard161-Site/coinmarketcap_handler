@@ -8,7 +8,7 @@ from mindsdb.integrations.libs.response import (
     RESPONSE_TYPE
 )
 from mindsdb.utilities import log
-from mindsdb_sql import parse_sql
+from mindsdb_sql_parser import parse_sql
 from .coinmarketcap_tables import (
     CryptocurrencyQuotesTable,
     CryptocurrencyListingsTable,
